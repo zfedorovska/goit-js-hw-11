@@ -64,7 +64,6 @@ function clearImagesContainer() {
 }
 
 const makeImageMarkup = image => {
-    console.log(image);
     return `
     <a class="gallery__item" href=${image.largeImageURL }>
       <div class="photo-card">     
